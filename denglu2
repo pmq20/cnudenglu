@@ -1,0 +1,14 @@
+#!/usr/bin/python
+
+import re
+import mechanize
+
+br = mechanize.Browser()
+br.open("http://202.204.208.150/")
+print br.title().decode("GB2312").encode("UTF-8")
+br.select_form(name="login_form")
+br["username"]="YOUR_ACCOUNT_HERE"
+br["password"]="YOUR_PASSWORD_HERE"
+br["access_type"]=["external"]
+response2 = br.submit()
+print response2

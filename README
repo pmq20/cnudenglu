@@ -1,0 +1,7 @@
+# CNU-Denglu
+
+登陆首都师范大学(CNU)有线局域网和无线局域网的快速脚本，请替换以下占位符的值，使用Python执行脚本。
+
+  YOUR_ACCOUNT_HERE -- 您的账号
+
+  YOUR_PASSWORD_HERE -- 您的密码
